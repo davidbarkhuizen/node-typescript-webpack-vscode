@@ -1,0 +1,1 @@
+alert('la ilaha illallah');
