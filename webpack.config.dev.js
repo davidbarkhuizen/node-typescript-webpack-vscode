@@ -24,7 +24,7 @@ module.exports = {
     extensions: [ '.tsx', '.ts', '.js' ]
   },
   output: {
-    filename: 'index.js',
+    filename: 'cuniform.js',
     path: path.resolve(__dirname, 'dist')
   },
   devServer: {
