@@ -1,1 +1,5 @@
-alert('la ilaha illallah');
+const go = () => {
+    console.log('la ilaha illallah');
+};
+
+go();

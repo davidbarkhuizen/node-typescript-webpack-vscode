@@ -2,12 +2,14 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "node",
+            "type": "chrome",
+            "url": "http://localhost:9000",
+            "webRoot": "${workspaceFolder}",
             "request": "launch",
             "name": "debug",
-            "program": "${workspaceFolder}/node_modules/webpack-dev-server/bin/webpack-dev-server.js",
-            "outFiles": [
-                "${workspaceFolder}/built/**/*.js"
+            "runtimeExecutable": "/usr/bin/chromium-browser",
+            "runtimeArgs": [
+                "--remote-debugging-port=9222"
             ]
         }
     ]
